@@ -1,0 +1,5 @@
+package com.project.costomer.model;
+
+public class CustomerDAO {
+
+}

@@ -1,0 +1,16 @@
+
+12월 28, 2023 12:16:23.05 NEW SESSION
+12월 28, 2023 12:16:23.06 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+1월 02, 2024 14:05:08.89 NEW SESSION
+1월 02, 2024 14:05:08.90 [6400:3604:0102/140508.888:ERROR:command_buffer_proxy_impl.cc(319)] GPU state invalid after WaitForGetOffsetInRange.
+1월 02, 2024 14:05:08.90 [6400:3604:0102/140508.888:ERROR:command_buffer_proxy_impl.cc(319)] GPU state invalid after WaitForGetOffsetInRange.
+
+1월 05, 2024 11:46:19.37 NEW SESSION
+1월 05, 2024 11:46:19.38 [9496:9184:0105/114619.356:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 11:46:21.42 [9496:9184:0105/114621.425:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 11:46:21.42 [9496:9184:0105/114621.425:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 11:46:24.84 [9496:9184:0105/114624.845:ERROR:device_event_log_impl.cc(192)] [11:46:24.845] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+1월 05, 2024 15:07:51.44 [6748:4964:0105/150751.441:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 15:38:47.13 [6748:4964:0105/153847.136:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 16:09:26.99 [11500:13872:0105/160926.999:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost

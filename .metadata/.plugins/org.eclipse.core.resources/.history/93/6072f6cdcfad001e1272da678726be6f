@@ -1,0 +1,17 @@
+package com.myweb.board.model;
+
+import java.security.Timestamp;
+
+public class BoardVO {
+	
+	private int bno;
+	private String writer;
+	private	String title;
+	private	String content;
+	private int hit;
+	private Timestamp regdate;
+	
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.myweb.board.model;
+
+public class BoardVO {
+	
+	private int bno;
+	private String writer;
+	private	String title;
+	private	String content;
+	private
+	private
+	
+
+}

@@ -1,0 +1,10 @@
+package com.project.customer.service;
+
+import com.myweb.user.model.UserDAO;
+
+public class ServiceImpl implements Service {
+
+	private CustomerDAO dao =  
+	
+	
+}

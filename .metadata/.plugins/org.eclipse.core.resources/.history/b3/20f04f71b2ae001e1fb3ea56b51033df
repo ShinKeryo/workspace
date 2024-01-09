@@ -1,0 +1,27 @@
+package com.project.costomer.model;
+
+public class CustomerDAO {
+		
+	private static CustomerDAO dao = new CustomerDAO();
+	
+	private CustomerDAO() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static CustomerDAO getInstance() {
+		return dao;
+	}
+	
+	public int idCheck(String id) {
+		int result =0;
+		
+		
+		
+		
+		
+		
+		
+		return result;
+	}
+	
+}

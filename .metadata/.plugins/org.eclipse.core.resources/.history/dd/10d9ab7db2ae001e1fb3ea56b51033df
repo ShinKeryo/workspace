@@ -1,0 +1,36 @@
+package com.project.costomer.model;
+
+import java.sql.Connection;
+
+public class CustomerDAO {
+		
+	private static CustomerDAO dao = new CustomerDAO();
+	
+	private CustomerDAO() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static CustomerDAO getInstance() {
+		return dao;
+	}
+	
+	public int idCheck(String id) {
+		int result =0;
+		
+		Connection conn = null;
+		
+		
+		
+		if(result==1) {
+			
+			
+		}
+		
+		
+		
+		
+		
+		return result;
+	}
+	
+}

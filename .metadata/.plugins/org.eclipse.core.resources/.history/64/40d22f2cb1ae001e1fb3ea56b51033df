@@ -1,0 +1,36 @@
+package com.project.customer.service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.project.costomer.model.CustomerDAO;
+
+public class ServiceImpl implements Service {
+
+	CustomerDAO dao = CustomerDAO.getInstance();
+
+	@Override
+	public int custoemrJoin(HttpServletRequest request, HttpServletResponse response) {
+		
+		String customerId
+		String
+		int
+		String
+		String
+		String
+		String
+		String
+		
+		
+		
+		
+		
+		
+		
+		return 0;
+	}
+	
+	
+	
+	
+}

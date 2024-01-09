@@ -1,0 +1,5 @@
+package com.myweb.user.model;
+
+public class UserVO {
+
+}

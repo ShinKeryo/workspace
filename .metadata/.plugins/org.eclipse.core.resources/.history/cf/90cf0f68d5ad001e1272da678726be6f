@@ -1,0 +1,5 @@
+package com.myweb.board.service;
+
+public interface BoardService {
+	public void regist(HttpServletRequest request, HttpServletResponse response);
+}

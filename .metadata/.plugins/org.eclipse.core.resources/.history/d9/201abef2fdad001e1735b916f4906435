@@ -1,0 +1,15 @@
+package com.project.costomer.model;
+
+import java.sql.Timestamp;
+
+public class CustomerVO {
+	private String customerId;
+	private String name;
+	private int age;
+	private String pw;
+	private String eMail;
+	private String address;
+	private Timestamp regDate;
+	private String phoneNumber;
+	
+}

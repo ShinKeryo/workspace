@@ -1,0 +1,18 @@
+package com.myweb.board.service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class BoardServiceImpl implements BoardService {
+
+	@Override
+	public void regist(HttpServletRequest request, HttpServletResponse response) {
+		
+		String writer = request.getParameter("writer");
+		String title = request.getParameter("title");
+		String writer = request.getParameter("writer");
+		
+	}
+
+	
+}
