@@ -3,3 +3,32 @@
 1704785974820	Delete element
 1704785993234	Delete element
 1704786035747	Delete element
+1704864519356	Delete element
+1704939993912	Rename resource 'pBoard.jsp'
+1704940010212	Delete element
+1704940323053	Delete element
+1704941263815	Rename type 'BoradDAO'
+1704941302010	Move compilation unit
+1705028012995	Delete element
+1705038298108	Rename resource 'ex2.jsp'
+1705039071113	Delete element
+1705039078265	Move 'check.jsp' to 'Board'
+1705039090933	Rename resource 'check.jsp'
+1705039098668	Rename resource 'boardboard_content.jsp'
+1705039893534	Delete element
+1705039905580	Rename resource 'check.jsp'
+1705040242654	Delete element
+1705040257429	Rename resource 'check.jsp'
+1705040479024	Move 'chcek.jsp' to 'customer'
+1705040488521	Rename resource 'chcek.jsp'
+1705040492790	Delete element
+1705040497039	Rename resource 'customer_login2.jsp'
+1705040651276	Delete element
+1705042976204	Rename resource 'check.jsp'
+1705043392920	Delete element
+1705043400684	Rename resource 'customer_login2.jsp'
+1705046619550	Rename package 'com.myproject.reservaion.model'
+1705046680857	Rename package 'com.myproject.reservation.model'
+1705046723226	Delete elements
+1705047623961	Delete element
+1705047628657	Rename resource 'customer_reservation2.jsp'

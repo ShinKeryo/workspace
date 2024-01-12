@@ -64,7 +64,8 @@ public class BoardController extends HttpServlet {
 			response.sendRedirect("list.board");
 		}else if (path.equals("/board/content.board")) {
 			
-			BoardVO vo = service.getContent(request, response);
+			service.hitUpdate(request, response);//조회수 
+			BoardVO vo = service.getContent(request, response);//내용
 			request.setAttribute("vo",vo);
 			
 			request.getRequestDispatcher("board_content.jsp").forward(request, response);
@@ -102,6 +103,12 @@ public class BoardController extends HttpServlet {
 				
 				response.sendRedirect("modify.board?bno="+request.getParameter("bno"));
 			}
+			
+		}else if(path.equals("/board/delete.board")) { //삭제기능
+			
+			service.delete(request, response);
+			response.sendRedirect("list.board"); //목록으로 이동
+			
 			
 		}
 		

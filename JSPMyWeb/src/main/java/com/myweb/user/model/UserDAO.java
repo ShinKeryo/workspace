@@ -162,11 +162,6 @@ public class UserDAO {
 					vo.setGender(rs.getString("gender"));
 					
 					
-					
-					
-					
-					
-					
 				}
 				
 			} catch (Exception e) {

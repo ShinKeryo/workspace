@@ -14,3 +14,21 @@
 1월 05, 2024 15:07:51.44 [6748:4964:0105/150751.441:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
 1월 05, 2024 15:38:47.13 [6748:4964:0105/153847.136:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
 1월 05, 2024 16:09:26.99 [11500:13872:0105/160926.999:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+1월 10, 2024 08:42:49.37 NEW SESSION
+1월 10, 2024 08:42:49.38 기존 브라우저 세션에서 여는 중입니다.
+
+1월 10, 2024 12:51:05.10 NEW SESSION
+1월 10, 2024 12:51:05.12 [5788:11164:0110/125105.092:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+
+1월 11, 2024 11:28:54.96 NEW SESSION
+1월 11, 2024 11:28:54.97 [7776:6360:0111/112854.962:ERROR:device_event_log_impl.cc(192)] [11:28:54.961] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 11, 2024 14:08:10.34 [9848:10488:0111/140810.346:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+1월 11, 2024 19:36:27.03 [4776:6152:0111/193627.033:ERROR:device_event_log_impl.cc(192)] [19:36:27.033] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+1월 12, 2024 12:25:15.21 NEW SESSION
+1월 12, 2024 12:25:15.22 [3524:6712:0112/122515.213:ERROR:device_event_log_impl.cc(192)] [12:25:15.212] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+1월 12, 2024 16:11:13.28 NEW SESSION
+1월 12, 2024 16:11:13.29 [6748:2276:0112/161113.285:ERROR:interface_endpoint_client.cc(702)] Message 3 rejected by interface blink.mojom.Widget
+1월 12, 2024 17:47:38.27 [3684:4008:0112/174738.277:ERROR:device_event_log_impl.cc(192)] [17:47:38.277] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

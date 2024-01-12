@@ -64,13 +64,11 @@
 				</td>
 			</tr>
 			<tr>
-				<td>성별</td>
+				<td>핸드폰 번호</td>
 				<td>
-					<input type="radio" name="gender" ${vo.getGender() == 'M' ? 'checked' :'' } value="M">남자
-					<input type="radio" name="gender" ${vo.getGender() == 'F' ? 'checked' :'' } value="F">여자
+					<input type="text" name="address" value="${requestScope.vo.getphoneNumber()}" placeholder="ex)010-1234-5678">
 				</td>
 			</tr>
-			
 			
 		</table>
 		<br>

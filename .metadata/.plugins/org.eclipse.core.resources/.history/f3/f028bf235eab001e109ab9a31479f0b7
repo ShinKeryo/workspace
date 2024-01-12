@@ -1,5 +1,0 @@
-package com.myweb.user.service;
-
-public interface UserService {
-
-}

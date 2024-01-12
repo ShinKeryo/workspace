@@ -8,6 +8,7 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 
 import javax.naming.InitialContext;
+import javax.security.auth.message.callback.PrivateKeyCallback.Request;
 import javax.sql.DataSource;
 
 import com.myweb.util.JdbcUtil;
@@ -191,10 +192,62 @@ public class BoardDAO {
 	
 	
 	
+	//삭제기능(삭제는 나중에 컬럼을 하나 만들고 사용하지 않음)
+	
+	public void delete(String bno) {
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		String sql = "delete from board where bno =?";
+		
+		
+		try {
+			
+			conn = dataSource.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			
+			pstmt.setString(1, bno);
+			
+			pstmt.executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			
+			JdbcUtil.close(conn, pstmt, null);
+		}
+		
+		
+	}
 	
 	
+	//조회수 작업
 	
-	
+	public void hitUpdate(String bno) {
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		String sql = "update board set hit = hit + 1 where bno = ?";
+		
+		try {
+			
+			conn = dataSource.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			
+			pstmt.setString(1, bno);
+			
+			pstmt.executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			
+			JdbcUtil.close(conn, pstmt, null);
+		}
+		
+	}
 	
 	
 	

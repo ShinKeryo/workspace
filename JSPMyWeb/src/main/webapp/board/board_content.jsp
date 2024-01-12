@@ -3,13 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
 
 
-<%@ include file="../include/header.jsp" %>
-
 
 <div align="center" class="div_center">
-	
-	
-	${vo }
 	
 	
 	<h3>게시글 내용 보기</h3>
@@ -42,8 +37,12 @@
 		<tr>
 			<td colspan="4" align="center">
 				<input type="button" value="목록" onclick="location.href='list.board'; ">&nbsp;&nbsp;
-				<input type="button" value="수정" onclick="location.href='modify.board?bno=${vo.bno}'; ">&nbsp;&nbsp;
-				<input type="button" value="삭제">&nbsp;&nbsp;
+				
+				
+				<c:if test="${vo.writer == sessionScope.user_id }">
+				<input type="button" value="수정" onclick="location.href='modify.board?bno=${vo.bno} &writer=${vo.writer}';">&nbsp;&nbsp;
+				<input type="button" value="삭제" onclick="location.href='delete.board?bno=${vo.bno} &writer=${vo.writer}';">&nbsp;&nbsp;
+				</c:if>
 			</td>
 		</tr>
 	</table>
@@ -57,4 +56,3 @@
 
 
 
-<%@ include file="../include/footer.jsp" %>
